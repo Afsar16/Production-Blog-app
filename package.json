@@ -4,10 +4,10 @@
   "description": "blog app",
   "main": "server.js",
   "scripts": {
-    "start": "node serevr.js",
+    "start": "node server.js",
     "server": "nodemon server.js",
     "client":"npm start --prefix ./client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm start\" \"npm run client\""
   },
   "author": "afsar",
   "license": "ISC",
